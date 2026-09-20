@@ -30,7 +30,7 @@ GetUserName()
 
 Desta forma:
 
-- quando o instalador é executado com `sudo`, é utilizado `SUDO_USER`;
+- qndo o instalador é executado com `sudo`, é utilizado `SUDO_USER`;
 - caso `SUDO_USER` não exista, é utilizado `id -un`.
 
 A alteração foi feita sem adicionar ou remover linhas antes do payload interno do instalador, para não alterar o `ARCHIVE_OFFSET` do ficheiro autoextraível.
@@ -110,7 +110,7 @@ ss -ltnp | grep 14186
 
 ## Instalar o SNX
 
-O instalador do SNX deve ser obtido através do portal Check Point utilizado pela UA.
+O instalador do SNX deve ser obtido através do portal Check Point utilizado pela entidade.
 
 Guardar o ficheiro:
 
